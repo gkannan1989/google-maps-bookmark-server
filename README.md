@@ -1,7 +1,6 @@
-# README
+# Google Maps Bookmark - Server 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- TBD
  
 * Ruby version - 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
 
