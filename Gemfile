@@ -7,7 +7,6 @@ ruby '2.6.4'
 gem 'rails', '~> 6.0.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
-gem 'sqlite3', '~> 1.4'
 gem 'rack-cors', :require => 'rack/cors' 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
