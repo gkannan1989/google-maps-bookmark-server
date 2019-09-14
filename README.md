@@ -29,7 +29,12 @@
 </p>
 <br />
 <p>
-    <b>Step 4: <small>hit! your server ready to serve</small></b>
+    <b>Step 4: <small>start the server</small></b>
+    <pre>/rails server</pre>
+</p>
+<br />
+<p>
+    <b>Step 5: <small>hit! your server ready to serve</small></b>
     <pre>http://localhost:3000</pre>
 </p>
 <br />
