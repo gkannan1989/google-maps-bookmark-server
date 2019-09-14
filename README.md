@@ -15,7 +15,7 @@
 <h2>Installation</h2>
 <p>
     <b>Step 1: <small>clone the repository</small></b>
-    <pre>$ git clone https://github.com/gkannan1989/google-maps-bookmark-serve.git</pre>
+    <pre>$ git clone https://github.com/gkannan1989/google-maps-bookmark-server.git</pre>
 </p>
 <br />
 <p>
