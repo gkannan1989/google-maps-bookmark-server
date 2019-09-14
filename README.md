@@ -28,8 +28,11 @@
 		/rails db:migrate
 
 * How to run the test suite
-		TBD
 
+		/rails db:migrate RAILS_ENV=test
+		/rails test test/models/bookmark_test.rb
+		/rails test test/models/suggestion_test.rb
+		
 * Services (job queues, cache servers, search engines, etc.)
 
 	 Bookmark CRUD operations services
