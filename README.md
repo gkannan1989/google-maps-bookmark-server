@@ -11,7 +11,6 @@
 	
 * Configuration
 
-
 * Database creation/initialization
 		Two models created, - Below is just an information
 		
