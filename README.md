@@ -65,8 +65,27 @@
 
 * Deployment instructions
 
-  Before deployment you meet the system dependencies
-
+<h2>Installation</h2>
+<p>
+    <b>Step 1: <small>clone the repository</small></b>
+    <pre>$ git clone https://github.com/gkannan1989/google-maps-bookmark-serve.git</pre>
+</p>
+<br />
+<p>
+    <b>Step 2: <small>move to the repository</small></b>
+    <pre>$ cd /google-maps-bookmark-serve</pre>
+</p>
+<br />
+<p>
+    <b>Step 3: <small>bundley</small></b>
+    <pre>$ /bundle install</pre>
+</p>
+<br />
+<p>
+    <b>Step 4: <small>hit! your server ready to serve</small></b>
+    <pre>http://localhost:3000</pre>
+</p>
+<br />
 		Step1: Goto the root path
 		Step2: Bundle the code - /bundle install
 		Step3: start the server - /rails server
