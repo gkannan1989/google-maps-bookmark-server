@@ -8,6 +8,7 @@
 	- Bundler - 2.0.2
 	- rack-cors - 1.0.3 - Handling Cors 
 	- sqlite3 ~> 1.4 - SQL Lite for DB integration
+	- postgresql - DB for production
 	
 * Configuration
 
