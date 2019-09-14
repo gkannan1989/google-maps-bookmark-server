@@ -12,7 +12,8 @@ default: &default
   password: 155702d7283b27d61c019c92e059bd1ab8ca0b751b6bb0695e22c8e53da9f875
   timeout: 5000 
   port: 5432 
-  host: postgres://xyczytgrpcxbdd:155702d7283b27d61c019c92e059bd1ab8ca0b751b6bb0695e22c8e53da9f875@ec2-54-235-92-244.compute-1.amazonaws.com:5432/d7f5obqfp4rrit
+  host: ec2-54-235-92-244.compute-1.amazonaws.com
+  DATABASE_URL: postgres://xyczytgrpcxbdd:155702d7283b27d61c019c92e059bd1ab8ca0b751b6bb0695e22c8e53da9f875@ec2-54-235-92-244.compute-1.amazonaws.com:5432/d7f5obqfp4rrit
 
 development:
   <<: *default
