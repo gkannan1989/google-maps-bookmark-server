@@ -25,7 +25,7 @@
 		
 		/rails generate model Bookmark lat:float lng:float title:string editable:boolean idx:integer
 		
-  /rails generate model suggestion query:string key:string 
+                /rails generate model suggestion query:string key:string 
 		
 		/rails db:migrate
 
