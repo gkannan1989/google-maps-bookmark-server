@@ -86,7 +86,4 @@
     <pre>http://localhost:3000</pre>
 </p>
 <br />
-		Step1: Goto the root path
-		Step2: Bundle the code - /bundle install
-		Step3: start the server - /rails server
-		Step4: Your endpoint is now ready to server on the port http://localhost:3000
+		 
