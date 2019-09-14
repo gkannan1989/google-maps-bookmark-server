@@ -10,7 +10,29 @@
 	- sqlite3 ~> 1.4 - SQL Lite for DB integration
 	- postgresql - DB for production
 	
-* Configuration
+* Deployment instructions
+
+<h2>Installation</h2>
+<p>
+    <b>Step 1: <small>clone the repository</small></b>
+    <pre>$ git clone https://github.com/gkannan1989/google-maps-bookmark-serve.git</pre>
+</p>
+<br />
+<p>
+    <b>Step 2: <small>move to the repository</small></b>
+    <pre>$ cd /google-maps-bookmark-serve</pre>
+</p>
+<br />
+<p>
+    <b>Step 3: <small>bundley</small></b>
+    <pre>$ /bundle install</pre>
+</p>
+<br />
+<p>
+    <b>Step 4: <small>hit! your server ready to serve</small></b>
+    <pre>http://localhost:3000</pre>
+</p>
+<br />
 
 * Database creation/initialization
 		Two models created, - Below is just an information
@@ -63,27 +85,5 @@
 
 		DELETE /api/search/suggestion/:id(.:format)	
 
-* Deployment instructions
 
-<h2>Installation</h2>
-<p>
-    <b>Step 1: <small>clone the repository</small></b>
-    <pre>$ git clone https://github.com/gkannan1989/google-maps-bookmark-serve.git</pre>
-</p>
-<br />
-<p>
-    <b>Step 2: <small>move to the repository</small></b>
-    <pre>$ cd /google-maps-bookmark-serve</pre>
-</p>
-<br />
-<p>
-    <b>Step 3: <small>bundley</small></b>
-    <pre>$ /bundle install</pre>
-</p>
-<br />
-<p>
-    <b>Step 4: <small>hit! your server ready to serve</small></b>
-    <pre>http://localhost:3000</pre>
-</p>
-<br />
 		 
