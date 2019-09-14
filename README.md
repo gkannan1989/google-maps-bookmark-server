@@ -1,14 +1,14 @@
 # Google Maps Bookmark - Server 
 
-- TBD
+- Welcome, this Ruby server services designed to work with https://github.com/gkannan1989/google-maps-bookmark
  
 * System dependencies
+        - Ruby version - 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
 	- Rails - 6.0.0
 	- Bundler - 2.0.2
-	- rack-cors - 1.0.3
-	- sqlite3 ~> 1.4
-	* Ruby version - 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
-
+	- rack-cors - 1.0.3 - Handling Cors 
+	- sqlite3 ~> 1.4 - SQL Lite for DB integration
+	
 * Configuration
 
 
