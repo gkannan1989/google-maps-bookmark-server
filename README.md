@@ -2,31 +2,29 @@
 
 - TBD
  
-* Ruby version - 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
-
 * System dependencies
 - Rails - 6.0.0
 - Bundler - 2.0.2
 - rack-cors - 1.0.3
 - sqlite3 ~> 1.4
+* Ruby version - 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
 
 * Configuration
-		TBD
 
-* Database creation
-		TBD
 
-* Database initialization
+* Database creation/initialization
 		Two models created, - Below is just an information
 		
-		1. Bookmark
-		
-		2. suggestion
+		1. Bookmark - user bookmark history handling
 		
 		/rails generate model Bookmark lat:float lng:float title:string editable:boolean idx:integer
+		/rails generate controller Bookmarks index create update destroy
+		/rails db:migrate
 		
-                /rails generate model suggestion query:string key:string 
+		2. suggestion - location search handling
 		
+        /rails generate model suggestion query:string key:string 
+		/rails generate controller suggestion index create update destroy
 		/rails db:migrate
 
 * How to run the test suite
@@ -36,11 +34,11 @@
 
 	 Bookmark CRUD operations services
 		
-		GET	/api/v1/bookmarks(.:format)	
+		GET	/api/v1/bookmarks(.:format)  
+ 
+		POST	/api/v1/bookmarks(.:format)  	
 
-		POST	/api/v1/bookmarks(.:format)	
-
-		GET	/api/v1/bookmarks/:id(.:format)	
+		GET	/api/v1/bookmarks/:id(.:format) 
 
 		PATCH	/api/v1/bookmarks/:id(.:format)	
 
