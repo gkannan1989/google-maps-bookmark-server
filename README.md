@@ -11,48 +11,65 @@
 - sqlite3 ~> 1.4
 
 * Configuration
-TBD
+		TBD
 
 * Database creation
-TBD
+		TBD
 
 * Database initialization
-TBD
+		Two models created, - Below is just an information
+		
+		1. Bookmark
+		
+		2. suggestion
+		
+		/rails generate model Bookmark lat:float lng:float title:string editable:boolean idx:integer
+		
+  /rails generate model suggestion query:string key:string 
+		
+		/rails db:migrate
 
 * How to run the test suite
-TBD
+		TBD
 
 * Services (job queues, cache servers, search engines, etc.)
 
-Bookmark CRUD operations services
-GET	/api/v1/bookmarks(.:format)	
+	 Bookmark CRUD operations services
+		
+		GET	/api/v1/bookmarks(.:format)	
 
-POST	/api/v1/bookmarks(.:format)	
+		POST	/api/v1/bookmarks(.:format)	
 
-GET	/api/v1/bookmarks/:id(.:format)	
+		GET	/api/v1/bookmarks/:id(.:format)	
 
-PATCH	/api/v1/bookmarks/:id(.:format)	
+		PATCH	/api/v1/bookmarks/:id(.:format)	
 
-PUT	/api/v1/bookmarks/:id(.:format)	
+		PUT	/api/v1/bookmarks/:id(.:format)	
 
-DELETE	/api/v1/bookmarks/:id(.:format)	
+		DELETE /api/v1/bookmarks/:id(.:format)	
 
-Search Suggestion services
-GET	/api/search/suggestion(.:format)	
- 
-POST	/api/search/suggestion(.:format)	
+	 Search Suggestion services
+		
+		GET	/api/search/suggestion(.:format)	
 
-GET	/api/search/suggestion/:id(.:format)	
+		POST	/api/search/suggestion(.:format)	
 
-PATCH	/api/search/suggestion/:id(.:format)	
+		GET	/api/search/suggestion/:id(.:format)	
 
-PUT	/api/search/suggestion/:id(.:format)	
+		PATCH	/api/search/suggestion/:id(.:format)	
 
-DELETE	/api/search/suggestion/:id(.:format)	
+		PUT	/api/search/suggestion/:id(.:format)	
+
+		DELETE /api/search/suggestion/:id(.:format)	
 
 * Deployment instructions
-Before deployment you meet the system dependencies
-Step1: Goto the root path
-Step2: Bundle the code - /bundle 
-Step3: start the server - /rails server
-Step4: Your endpoint is now ready to server on the port http://localhost:3000
+
+  Before deployment you meet the system dependencies
+
+		Step1: Goto the root path
+
+		Step2: Bundle the code - /bundle 
+
+		Step3: start the server - /rails server
+
+		Step4: Your endpoint is now ready to server on the port http://localhost:3000
