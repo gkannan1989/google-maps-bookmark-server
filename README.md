@@ -29,6 +29,11 @@
 </p>
 <br />
 <p>
+    <b>Step 3: <small>migrate the table shema and db</small></b>
+    <pre>$ rails db:migrate RAILS_ENV=development</pre>
+</p>
+<br />
+<p>
     <b>Step 4: <small>start the server</small></b>
     <pre>/rails server</pre>
 </p>
