@@ -20,7 +20,7 @@
 <br />
 <p>
     <b>Step 2: <small>move to the repository</small></b>
-    <pre>$ cd /google-maps-bookmark-serve</pre>
+    <pre>$ cd google-maps-bookmark-server</pre>
 </p>
 <br />
 <p>
