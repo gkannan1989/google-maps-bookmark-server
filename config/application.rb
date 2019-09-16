@@ -36,7 +36,7 @@ module Bookmarks
 
    config.action_dispatch.default_headers = {  
     'Access-Control-Allow-Credentials' => true,
-    'Access-Control-Allow-Origin' => 'https://google-map-bookmark.herokuapp.com/'
+    'Access-Control-Allow-Origin' => 'https://google-map-bookmark.herokuapp.com'
   }
   end
 end
