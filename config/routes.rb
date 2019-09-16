@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # get 'bookmarks/create'
   # get 'bookmarks/update'
   # get 'bookmarks/destroy'
-  match '*all', controller: 'application', action: 'cors_preflight_check', via: [:options]
+  #match '*all', controller: 'application', action: 'cors_preflight_check', via: [:options]
 
   scope '/api/search/' do
     resources :suggestion
